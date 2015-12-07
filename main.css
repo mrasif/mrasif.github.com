@@ -32,7 +32,6 @@ header h2{
 }
 .hr{
 	border-bottom: 1px dashed #B5E853;
-	margin-bottom: 10px;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: normal;
@@ -43,6 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .c-box h3{
 	font-size: 18px;
+    padding-top: 15px;
 }
 a{
 	color: #63C0F5;
