@@ -1,0 +1,87 @@
+body{
+	background-image: url("bkg.png");
+	color: #EAEAEA;
+	margin-top: 20px;
+	margin-left: 0px;
+	max-height: 0px;
+
+	color: #EAEAEA;
+	line-height: 1.5;
+	font-family: Monaco,"Bitstream Vera Sans Mono","Lucida Console",Terminal,monospace;
+
+}
+header, .c-box{
+	width: 90%;
+	max-width: 600px;
+	text-align: left;
+}
+header h1{
+	font-size: 30px;
+	line-height: 1.5;
+	margin: 0px 0px 0px -40px;
+	font-weight: bold;
+	font-family: Monaco,"Bitstream Vera Sans Mono","Lucida Console",Terminal,monospace;
+	color: #B5E853;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(181, 232, 83, 0.1), 0px 0px 10px rgba(181, 232, 83, 0.1);
+	letter-spacing: -1px;
+}
+header h2{
+	font-size: 18px;
+	font-weight: 300;
+	color: #666;
+}
+.hr{
+	border-bottom: 1px dashed #B5E853;
+	margin-bottom: 10px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: Monaco,"Bitstream Vera Sans Mono","Lucida Console",Terminal,monospace;
+    color: #B5E853;
+    letter-spacing: -0.03em;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px 0px 5px rgba(181, 232, 83, 0.1), 0px 0px 10px rgba(181, 232, 83, 0.1);
+}
+.c-box h3{
+	font-size: 18px;
+}
+a{
+	color: #63C0F5;
+	text-shadow: 0px 0px 5px rgba(104, 182, 255, 0.5);
+}
+
+#downloads .btn {
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+}
+.btn {
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 50px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000 rgba(0, 0, 0, 0.7) rgba(0, 0, 0, 0.7);
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.05) inset;
+}
+.btn-github .icon {
+    opacity: 0.6;
+    background: transparent url("blacktocat.png") no-repeat scroll 0px 0px;
+}
+.btn .icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 1px 8px 0px 0px;
+    float: left;
+}
