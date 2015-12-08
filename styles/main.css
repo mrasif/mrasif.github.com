@@ -1,5 +1,5 @@
 body{
-	background-image: url("./images/bkg.png");
+	background-image: url("../images/bkg.png");
 	color: #EAEAEA;
 	margin-top: 20px;
 	margin-left: 0px;
@@ -83,7 +83,7 @@ a:hover{
 }
 .btn-github .icon {
     opacity: 0.6;
-    background: transparent url("./images/blacktocat.png") no-repeat scroll 0px 0px;
+    background: transparent url("../images/blacktocat.png") no-repeat scroll 0px 0px;
 }
 .btn .icon {
     display: inline-block;
