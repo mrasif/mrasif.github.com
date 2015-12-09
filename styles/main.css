@@ -102,6 +102,7 @@ a:hover{
     background:url('../images/ch-arrow.png');
     background-repeat: no-repeat;
     background-position: right;
+    width: 200px;
 }
 .chooser option{
     background-color: rgba(0,0,0,0.8);
