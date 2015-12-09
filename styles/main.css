@@ -92,3 +92,17 @@ a:hover{
     margin: 1px 8px 0px 0px;
     float: left;
 }
+.chooser{
+    background-color: rgba(0,0,0,0.2);
+    color: #63C0F5;
+    border: 1px solid #333;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background:url('../images/ch-arrow.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.chooser option{
+    background-color: rgba(0,0,0,0.8);
+}
