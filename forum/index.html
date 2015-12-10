@@ -6,9 +6,15 @@
     body{
       margin: 0px;
     }
+    #my-header img{
+      height: 60px;
+    }
   </style>
 </head>
 <body>
+<div id="my-header">
+  <img src="../images/logo.png">
+</div>
 <iframe id="forum_embed"
   src="javascript:void(0)"
   scrolling="no"
@@ -21,6 +27,7 @@
      'https://groups.google.com/forum/embed/?place=forum/geekofcodes'
      + '&showsearch=true&showpopout=true&showtabs=false'
      + '&parenturl=' + encodeURIComponent(window.location.href);
+  document.getElementById('forum_embed').style.height=document.getElementById('forum_embed').style.height-60;
 </script>
 </body>
 </html>
